@@ -174,7 +174,7 @@ effectiveStdenv.mkDerivation (finalAttrs: {
       (cmakeBool "LLAMA_CURL" enableCurl)
       (cmakeBool "GGML_NATIVE" false)
       (cmakeBool "GGML_BLAS" useBlas)
-      (cmakeBool "GGML_CUDA" useCuda)
+      (cmakeBool "GGML_CUDA" true)
       (cmakeBool "GGML_HIP" useRocm)
       (cmakeBool "GGML_METAL" useMetalKit)
       (cmakeBool "GGML_VULKAN" useVulkan)

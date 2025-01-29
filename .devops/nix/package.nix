@@ -88,6 +88,7 @@ let
     cuda_cudart
     cuda_cccl # <nv/target>
     libcublas
+    cudatoolkit
   ];
 
   rocmBuildInputs = with rocmPackages; [
